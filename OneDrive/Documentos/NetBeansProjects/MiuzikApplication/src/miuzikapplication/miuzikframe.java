@@ -36,7 +36,7 @@ public class miuzikframe extends javax.swing.JFrame {
         
         songFile = new File ("C:\\Users\\ameri\\Downloads\\testSong.mp3"); //testSong
         String fileName = songFile.getName();
-        songName.setText(fileName);
+        songName.setText("Display Song Name");
         
     }
 
